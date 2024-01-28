@@ -1,0 +1,6 @@
+@OptionsAPI_HostAddress = http://localhost:5272
+
+GET {{OptionsAPI_HostAddress}}/shoppingcart/
+Accept: application/json
+
+###
