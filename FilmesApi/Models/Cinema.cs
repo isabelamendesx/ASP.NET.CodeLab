@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using AutoMapper.Configuration.Conventions;
+using System.ComponentModel.DataAnnotations;
 
 namespace FilmesApi.Models
 {
@@ -11,5 +12,9 @@ namespace FilmesApi.Models
         [Required(ErrorMessage = "O campo de nome é obrigatório")]
         public string Nome { get; set; }
 
+        public int EnderecoId { get; set; }
+
+        // Define pro EF uma relação 1:1
+        public virtual Endereco Endereco { get; set; }
     }
 }
