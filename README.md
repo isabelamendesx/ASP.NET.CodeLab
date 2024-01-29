@@ -1,3 +1,7 @@
+# ASP.NET Code Lab 🌐 📚💻
+
+Welcome to ASP.NET CodeLab, my personal repository of web development studies! I initiated this project in January 2024, during my third year of college and while participating in the DiverseDev course at AdaTech. Here, you'll find a collection of projects and experiments that reflect my journey of growth and exploration in the dynamic world of web development.
+
 # Options API 🚦
 
 The primary goal of OptionsAPI is to demonstrate the seamless integration of configuration options to dynamically adjust the behavior of the ShoppingCartController. In particular, it exemplifies how a seasonal discount can be applied or removed based on the configuration settings.
