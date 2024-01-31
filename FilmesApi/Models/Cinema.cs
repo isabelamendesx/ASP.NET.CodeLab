@@ -16,5 +16,7 @@ namespace FilmesApi.Models
 
         // Define pro EF uma relação 1:1
         public virtual Endereco Endereco { get; set; }
+
+        public virtual ICollection<Sessao> Sessoes { get; set; }
     }
 }

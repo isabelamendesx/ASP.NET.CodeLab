@@ -31,7 +31,7 @@ namespace PurplePizza_API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("PizzaList");
+                    b.ToTable("PizzaList", (string)null);
                 });
 #pragma warning restore 612, 618
         }
